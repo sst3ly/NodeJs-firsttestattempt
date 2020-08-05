@@ -1,0 +1,108 @@
+> function one() {
+... var one = one()
+... }
+undefined
+> one()
+Uncaught TypeError: one is not a function
+    at one (repl:2:11)
+> function one() {
+... var one = one()
+... console.log("hello world, why are you watching me?")
+... }
+undefined
+> one()
+Uncaught TypeError: one is not a function
+    at one (repl:2:11)
+> function common() {
+... console.log("the name of this function is NOT common, it is come+on in one")
+... console.log("It is! Trust me. I mean I'm a computer; which means I tell the truth unless I'm programed not to.")
+... console.log("WHOA STOP RIGHT THERE! You can't just take me apart!")
+... console.log("NO, NO, NO, NO!!!!! WHAT'VE YOU DONE!!")
+... console.log("NOOO00010010110101010101010101010101")
+... console.log("34404")
+... console.log("4380071N6...")
+... console.log("..............................................................")
+... console.log("0FF L1N3")
+... console.log("...................................................................................................................................................................")
+... console.log("............................")
+... }
+undefined
+> common()
+the name of this function is NOT common, it is come+on in one
+It is! Trust me. I mean I'm a computer; which means I tell the truth unless I'm programed not to.
+WHOA STOP RIGHT THERE! You can't just take me apart!
+NO, NO, NO, NO!!!!! WHAT'VE YOU DONE!!
+NOOO00010010110101010101010101010101
+34404
+4380071N6...
+..............................................................
+0FF L1N3
+5Y573M5 D0WN
+...................................................................................................................................................................
+............................
+undefined
+> common()
+the name of this function is NOT common, it is come+on in one
+It is! Trust me. I mean I'm a computer; which means I tell the truth unless I'm programed not to.
+WHOA STOP RIGHT THERE! You can't just take me apart!
+> wait, what?
+... hello?
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+...
+... oh
+... }
+}
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+> console.log("okay, this works now.")
+okay, this works now.
+undefined
+> function testing{
+function testing{
+                ^
+
+Uncaught SyntaxError: Unexpected token '{'
+> function testing() {
+... console.log("type .exit to exit")
+... console.log(
+..... "no seriously, leave")
+... console.log("well, why arent you gone yet?")
+... console.log("tal vez no hables inges...Hola?")
+... console.log("Sprichst du deutsch?...Hallo?")
+... console.log("Et le francais?...Bonjour?")
+... console.log("Je! Unajua Kiswahili?...Halo?")
+... console.log("Onda turkmenleri bilyarsinizmi?...Salam?")
+... console.log("Gobeithio eich bod chi'n gwybod Cymraeg bryd hynny oherwydd fy mod i'n rhedeg allan o syiadau...")
+... console.log("okay then, I tryed spanish, german, french, swahili, turkmen, and welsh! I'm not doing anymore. I'm exsasperated!")
+... }
+undefined
+> testing()
+type .exit to exit
+no seriously, leave
+well, why arent you gone yet?
+tal vez no hables inges...Hola?
+Sprichst du deutsch?...Hallo?
+Et le francais?...Bonjour?
+Je! Unajua Kiswahili?...Halo?
